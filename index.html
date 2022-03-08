@@ -11,11 +11,10 @@
 </head>
 
 <body>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#gender">Gender</a>
-        <a href="#contact">Contact</a>
-        <a href="#about-me">About </a>
+    <a class="active" href="#home">Home</a>
+    <a href="#gender">Gender</a>
+    <a href="#contact">Contact</a>
+    <a href="#about-me">About </a>
     </div>
     <h1>Akan Names Generator</h1>
     <p>The Akan is an indigenous tribal community based in the central highlands of Ghana
@@ -58,22 +57,21 @@
         <LI>Saturday: Ama</LI>
     </Ul>
 
-    <h4>PLEASE ENTER YOUR DATE OF BIRTH HERE</h4>
-
-     <label>Enter your name;</label><br>
-     <input type="text" id="myText"><br>
-     <button type="button" id="mybutton">submit</button>
-
-
+    <h4>PLEASE ENTER YOUR DATE OF BIRTH HERE:</h4>
+    <label for="male">Male</label>
+    <input type="radio" id="male" namr="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
 
 
-
-
+    <label>Enter your birthday;</label><br>
+    <input type="date" id="dob" name="birthday">
 
 
 
+    <button type="btn" onclick="myButton();" name="btn">Submit</button>
 
-
+    <h5>Get your Akan name</h5>
 
 
     <script src="index.js"></script>
