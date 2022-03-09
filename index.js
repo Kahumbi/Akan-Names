@@ -2,7 +2,7 @@ function room() {
     var dob = document.getElementById("dob");
     var male = document.getElementById("male");
     var female = document.getElementById("female");
-    dobArray = dob.Value.split("-")
+    dobArray = dob.value.split("-")
 
      console.log(dobArray)
     var CC = dobArray[0][0] + dobArray[0][1]
